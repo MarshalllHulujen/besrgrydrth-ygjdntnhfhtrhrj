@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+head {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-container {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 60px;
+    padding: 5px, 10px;
+}
+.search-container input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 5px, 10px;
+    font-size: 17px;
+    color: #cac7ff;
+}
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+.search-container button {
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: white;
+    cursor: pointer;
+}
+.item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+.Facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.picture1 > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(196, 155, 169), rgb(167, 167, 167));
+    width: 100vw;
+    height: auto;
+}
+.profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+}
+.picture2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: black;
+}
+.text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.username {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+}
